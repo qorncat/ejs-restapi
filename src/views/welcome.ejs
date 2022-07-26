@@ -1,0 +1,15 @@
+<div class="row mt-5" id="nodrag" draggable="false" style="user-select: none;">
+    <div class="col-md-6 m-auto">
+      <div class="card card-body text-center">
+        <h1><img src="https://avatars.githubusercontent.com/u/108209673?s=128&v=4"></i></h1>
+        <p><b>Create an account or login</b></p>
+        <a href="/users/register" class="btn btn-primary btn-block mb-2"
+          >Register</a
+        >
+        <a href="/users/login" class="btn btn-secondary btn-block">Login</a>
+      </div>
+    </div>
+  </div>
+<script>nodrag.ondragstart = () => {
+  return false;
+};</script>
